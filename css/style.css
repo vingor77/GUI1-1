@@ -1,15 +1,8 @@
-table {
-    border-collapse: collapse;
+.title {
+    text-align: center;
 }
 
-table th {
-    border: 1px solid black;
-}
-
-table tr {
-    border: 1px solid black;
-}
-
-table td {
-    border: 1px solid black;
+img {
+    width: 625px;
+    height: 600px;
 }
