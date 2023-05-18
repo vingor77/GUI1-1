@@ -1,22 +1,36 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-table {
+/*Explain is the top explanation table. This draws lines between the cells and evens the cell widths*/
+.explain {
+    border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
 }
 
-td {
-    width: 33.33%;
+.explain th {
+    border: 1px solid black;
+    width: 25%;
 }
 
-.title {
-    text-align: center;
+.explain td {
+    border: 1px solid black;
+    width: 25%;
+}
+
+/*Example is the examples tables. This organizes the images to display evenly*/
+.example {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.example td {
+    width: 33.33%;
 }
 
 img {
     display: block;
     width: 100%;
+}
+
+/*Set all title text to the center of the page*/
+.title {
+    text-align: center;
 }
