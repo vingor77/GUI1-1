@@ -1,8 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    width: 33.33%;
+}
+
 .title {
     text-align: center;
 }
 
 img {
-    width: 625px;
-    height: 600px;
+    display: block;
+    width: 100%;
 }
