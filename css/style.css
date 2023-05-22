@@ -36,7 +36,7 @@ img {
     width: 100%;
 }
 
-/*Set all title text to the center of the page. Also, override the white color to make it red.*/
+/*Set all title text to the center of the page. Also, override the white color from body to make it red.*/
 .title {
     text-align: center;
     color: red;
