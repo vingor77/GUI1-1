@@ -1,16 +1,16 @@
-/*Explain is the top explanation table. This draws lines between the cells and evens the cell widths*/
-.explain {
+/*borders is the tables where I want lines to be displayed on the borders.*/
+.borders {
     border-collapse: collapse;
     table-layout: fixed;
     width: 100%;
 }
 
-.explain th {
+.borders th {
     border: 1px solid black;
     width: 25%;
 }
 
-.explain td {
+.borders td {
     border: 1px solid black;
     width: 25%;
 }
