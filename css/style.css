@@ -1,3 +1,9 @@
+/*Set the background to black and the text to white*/
+body {
+    background-color: black;
+    color: white;
+}
+
 /*borders is the tables where I want lines to be displayed on the borders.*/
 .borders {
     border-collapse: collapse;
@@ -6,16 +12,16 @@
 }
 
 .borders th {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 25%;
 }
 
 .borders td {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 25%;
 }
 
-/*Example is the examples tables. This organizes the images to display evenly*/
+/*example is the examples tables. This organizes the images to display evenly and take up the entire cell*/
 .example {
     table-layout: fixed;
     width: 100%;
@@ -30,7 +36,34 @@ img {
     width: 100%;
 }
 
-/*Set all title text to the center of the page*/
+/*Set all title text to the center of the page. Also, override the white color to make it red.*/
 .title {
     text-align: center;
+    color: red;
+}
+
+/*Set the color of links to a golden-like color. Remove the line underneath links.(The text-decorations)*/
+a {
+    color: darkgoldenrod;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/*Set the background color of the images in the examples to white. This is to fix the logos and add a nice border.*/
+.images {
+    background-color: white;
 }
